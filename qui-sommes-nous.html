@@ -7,51 +7,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    .atelier-hero {
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 50px;
-      align-items: center;
-      margin: 50px 0 70px;
-    }
-    .atelier-hero img {
-      width: 100%;
-      height: 420px;
-      object-fit: cover;
-      border-radius: 16px;
-      box-shadow: 0 15px 40px rgba(0,0,0,.12);
-    }
-    .gadgets-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-    }
-    .gadgets-grid img {
-      width: 100%;
-      height: 380px;
-      object-fit: cover;
-      border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.1);
-      transition: transform .35s ease;
-    }
-    .gadgets-grid img:hover {
-      transform: scale(1.03);
-    }
-    .section-label {
-      display: inline-block;
-      background: #FF5A00;
-      color: white;
-      padding: 6px 16px;
-      border-radius: 50px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
-    @media (max-width: 768px) {
-      .atelier-hero { grid-template-columns: 1fr; }
-      .atelier-hero img { height: 280px; }
-    }
+    .atelier-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 50px; align-items: center; margin: 50px 0 70px; }
+    .atelier-hero img { width: 100%; height: 420px; object-fit: cover; border-radius: 16px; box-shadow: 0 15px 40px rgba(0,0,0,.12); }
+    .gadgets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 40px; }
+    .gadgets-grid img { width: 100%; height: 380px; object-fit: cover; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.1); transition: transform .35s ease; }
+    .gadgets-grid img:hover { transform: scale(1.03); }
+    .section-label { display: inline-block; background: #FF5A00; color: white; padding: 6px 16px; border-radius: 50px; font-size: 0.85rem; font-weight: 600; margin-bottom: 15px; }
+    @media (max-width: 768px) { .atelier-hero { grid-template-columns: 1fr; } .atelier-hero img { height: 280px; } }
   </style>
 </head>
 <body>
@@ -82,7 +44,6 @@
       Full Event Communication, spécialisée dans la publicité, les impressions grands et petits formats et l’événementiel. Nous vous proposons des prestations de qualité pour booster votre image de marque.
     </p>
 
-    <!-- Atelier / Bureau -->
     <div class="atelier-hero">
       <div>
         <span class="section-label">Notre atelier</span>
@@ -94,7 +55,6 @@
       <img src="images/bureau/atelier.jpg" alt="Atelier FULL EVENT - Machines d'impression">
     </div>
 
-    <!-- Objets publicitaires -->
     <div style="margin-top:80px;">
       <span class="section-label">Objets publicitaires</span>
       <h2 style="font-size:2.2rem; margin:10px 0 15px; text-align:center;">Nos goodies & supports personnalisés</h2>
