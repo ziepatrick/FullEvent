@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestations | FULL EVENT COMMUNICATION</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .service-block { margin-bottom: 60px; }
+    .service-block h2 { color: #FF5A00; margin-bottom: 10px; }
+    .slide-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 20px; }
+    .slide-gallery img { width: 100%; height: 160px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,.1); cursor: pointer; transition: transform 0.2s; }
+    .slide-gallery img:hover { transform: scale(1.05); }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.92);
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox.active { display: flex; }
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px; right: 30px;
+      color: white;
+      font-size: 40px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="images/logo.jpg" alt="FULL EVENT" style="height:50px;"></a>
+    <nav class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+      <a href="prestations.html" class="active">Prestations</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="evenementiel.html">Événementiel</a>
+      <a href="hautciel.html">HAUTCIEL</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<a href="https://wa.me/2250708866272" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<section style="padding:70px 0;">
+  <div class="container">
+    <h1 class="section-title">Nos Prestations</h1>
+
+    <div class="service-block">
+      <h2>Imprimerie & Petit format</h2>
+      <p>Flyers, dépliants, cartes de visite, carnets, entêtes, brochures…</p>
+      <div class="slide-gallery">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.33 (1).jpeg" alt="Brochure">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24 (1).jpeg" alt="Kakemono">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.32 (1).jpeg" alt="Roll-up">
+      </div>
+    </div>
+
+    <div class="service-block">
+      <h2>Sérigraphie & Textile</h2>
+      <p>Tee-shirts, polos, casquettes, objets personnalisés.</p>
+      <div class="slide-gallery">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.22 (1).jpeg" alt="T-shirt">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.25.jpeg" alt="T-shirt éco">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.29 (1).jpeg" alt="Polo">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23.jpeg" alt="Blouse">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.21 (2).jpeg" alt="T-shirt bleu">
+      </div>
+    </div>
+
+    <div class="service-block">
+      <h2>Grand format & Affichage</h2>
+      <p>Bâches, vinyle, panneaux, kakemonos, roll-up, enseignes.</p>
+      <div class="slide-gallery">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.27.jpeg" alt="Panneau">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24.jpeg" alt="Panneau Coccinelle">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.19 (2).jpeg" alt="Roll-up HEG">
+      </div>
+    </div>
+
+    <div class="service-block">
+      <h2>Branding & Habillage</h2>
+      <p>Véhicules, vitrines, murs, bureaux, stands.</p>
+      <div class="slide-gallery">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.25 (1).jpeg" alt="Véhicule">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.28 (1).jpeg" alt="Vitrine">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.22 (2).jpeg" alt="Mur">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23 (1).jpeg" alt="Porte">
+      </div>
+    </div>
+
+    <div class="service-block">
+      <h2>Événementiel</h2>
+      <p>Stands, décoration, signalétique et supports pour événements.</p>
+      <div class="slide-gallery">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.26 (2).jpeg" alt="Stand">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24 (3).jpeg" alt="Décoration">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.26.jpeg" alt="Aménagement">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>FULL EVENT</h4>
+        <p>Publicité • Imprimerie • Sérigraphie • Événementiel • Branding</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+        <a href="prestations.html">Prestations</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="evenementiel.html">Événementiel</a>
+        <a href="hautciel.html">HAUTCIEL</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>+225 07 08 86 62 72</p>
+        <p>+225 01 72 02 12 68</p>
+        <p>fulleventcommunication@gmail.com</p>
+        <p>Abidjan Cocody Angré les Oscars</p>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2026 FULL EVENT COMMUNICATION. Tous droits réservés.</div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Image agrandie">
+</div>
+
+<script>
+  document.querySelectorAll('.slide-gallery img').forEach(img => {
+    img.addEventListener('click', function() {
+      document.getElementById('lightbox-img').src = this.src;
+      document.getElementById('lightbox').classList.add('active');
+    });
+  });
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+  }
+</script>
+</body>
+</html>

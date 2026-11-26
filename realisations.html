@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réalisations | FULL EVENT COMMUNICATION</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .gallery-section { margin-bottom: 80px; }
+    .gallery-section h2 { color: #FF5A00; margin-bottom: 25px; font-size: 32px; border-bottom: 3px solid #FF5A00; padding-bottom: 10px; display: inline-block; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+    .gallery-grid img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,.12); transition: all .3s ease; }
+    .gallery-grid img:hover { transform: scale(1.05); box-shadow: 0 10px 25px rgba(0,0,0,.25); }
+
+    .lightbox { display: none; position: fixed; z-index: 99999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.95); align-items: center; justify-content: center; }
+    .lightbox.active { display: flex; }
+    .lightbox img { max-width: 90%; max-height: 90%; border-radius: 10px; box-shadow: 0 0 40px rgba(0,0,0,.6); }
+    .lightbox-close { position: absolute; top: 15px; right: 25px; color: white; font-size: 45px; cursor: pointer; font-weight: bold; }
+    .lightbox-nav { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 55px; cursor: pointer; user-select: none; padding: 15px; background: rgba(0,0,0,.3); border-radius: 50%; }
+    .lightbox-prev { left: 20px; }
+    .lightbox-next { right: 20px; }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><img src="images/logo.jpg" alt="FULL EVENT" style="height:50px;"></a>
+    <nav class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="qui-sommes-nous.html">Qui sommes-nous</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="realisations.html" class="active">Réalisations</a>
+      <a href="evenementiel.html">Événementiel</a>
+      <a href="hautciel.html">HAUTCIEL</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<a href="https://wa.me/2250708866272" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<section style="padding:70px 0; background:#fafafa;">
+  <div class="container">
+    <h1 class="section-title" style="text-align:center; margin-bottom:10px;">Nos Réalisations</h1>
+    <p style="text-align:center; max-width:750px; margin:0 auto 60px; color:#666; font-size:18px;">Galerie complète de nos travaux classés par catégories. Cliquez sur une image pour l’agrandir.</p>
+
+    <div class="gallery-section">
+      <h2>Sérigraphie & Textile</h2>
+      <div class="gallery-grid">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.22 (1).jpeg" alt="T-shirt">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.25.jpeg" alt="T-shirt éco">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.29 (1).jpeg" alt="Polo">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23.jpeg" alt="Blouse">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.21 (2).jpeg" alt="T-shirt">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.20 (3).jpeg" alt="T-shirt Patricia">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.31 (1).jpeg" alt="Famille Amour">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.32.jpeg" alt="Espoir">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.21.jpeg" alt="Excellence">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.29 (2).jpeg" alt="Armand Kouassi">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.30.jpeg" alt="Casquette">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.28 (3).jpeg" alt="Casquette Koira">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.29 (3).jpeg" alt="Casquette grise">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23 (2).jpeg" alt="T-shirt éco">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.31 (2).jpeg" alt="T-shirt MCI">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h2>Grand Format & Signalétique</h2>
+      <div class="gallery-grid">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.32 (1).jpeg" alt="Roll-up CILE">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24 (1).jpeg" alt="Roll-up DGTC">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.19 (2).jpeg" alt="Roll-up HEG">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24.jpeg" alt="Panneau Coccinelle">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.22 (2).jpeg" alt="Enseigne">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.27 (2).jpeg" alt="Enseigne LifeCare">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h2>Vitrophanie & Décoration vitrines</h2>
+      <div class="gallery-grid">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.28 (2).jpeg" alt="Pose">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23 (1).jpeg" alt="Porte">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.26 (1).jpeg" alt="Vitrine LifeCare">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.19.jpeg" alt="Vitrine">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.22 (3).jpeg" alt="Pose">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.27 (3).jpeg" alt="Film dépoli">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.28.jpeg" alt="Pose bâche">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h2>Objets personnalisés & Gadgets</h2>
+      <div class="gallery-grid">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.25 (2).jpeg" alt="Gadgets">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.24 (2).jpeg" alt="Sac">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.32 (2).jpeg" alt="Tampon">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.33.jpeg" alt="Tampon Shiny">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.20.jpeg" alt="Écharpe">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.20 (2).jpeg" alt="Marquage">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.33 (1).jpeg" alt="Flyers">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.23.jpeg" alt="Blouse sécurité">
+      </div>
+    </div>
+
+    <div class="gallery-section">
+      <h2>Découpe & Structures</h2>
+      <div class="gallery-grid">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.20 (1).jpeg" alt="Découpe">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.30 (1).jpeg" alt="Boîtes">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.31.jpeg" alt="Structures">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.19 (1).jpeg" alt="Découpes">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.30 (2).jpeg" alt="Boîte MAC">
+        <img src="images/realisations/WhatsApp Image 2026-11-20 at 15.42.26 (2).jpeg" alt="Stand">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>FULL EVENT COMMUNICATION</h4>
+        <p>Votre partenaire en communication visuelle et événementielle.</p>
+      </div>
+      <div>
+        <h4>Liens</h4>
+        <a href="index.html">Accueil</a><br>
+        <a href="prestations.html">Prestations</a><br>
+        <a href="realisations.html">Réalisations</a><br>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>+225 07 08 86 62 72</p>
+        <p>+225 01 72 02 12 68</p>
+        <p>fulleventcommunication@gmail.com</p>
+        <p>Abidjan Cocody Angré les Oscars</p>
+      </div>
+    </div>
+    <div class="copyright">&copy; 2026 FULL EVENT COMMUNICATION. Tous droits réservés.</div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <span class="lightbox-nav lightbox-prev" onclick="prevImage()">&#10094;</span>
+  <img id="lightbox-img" src="" alt="Image agrandie">
+  <span class="lightbox-nav lightbox-next" onclick="nextImage()">&#10095;</span>
+</div>
+
+<script>
+  const images = Array.from(document.querySelectorAll('.gallery-grid img'));
+  let currentIndex = 0;
+
+  images.forEach((img, index) => {
+    img.addEventListener('click', () => openLightbox(index));
+  });
+
+  function openLightbox(index) {
+    currentIndex = index;
+    document.getElementById('lightbox-img').src = images[index].src;
+    document.getElementById('lightbox').classList.add('active');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+  }
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById('lightbox-img').src = images[currentIndex].src;
+  }
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    document.getElementById('lightbox-img').src = images[currentIndex].src;
+  }
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) closeLightbox();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (!document.getElementById('lightbox').classList.contains('active')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  });
+</script>
+</body>
+</html>
